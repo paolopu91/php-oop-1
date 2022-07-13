@@ -30,6 +30,12 @@ function __construct($_titolo, $_regista, $_attorePrincipale, $_attoreSecondario
    $this->genere =$_genere;
 }
 
+//create my fullMovie function
+
+public function getFullMovie(){
+   return $this->titolo . " " . $this->regista . " " . $this->attorePrincipale . " " . $this->attoreSecondario . " " . $this->annoFilm . " " . $this->genere;
+}
+
 
 /**
  * Get the value of titolo
