@@ -17,10 +17,11 @@ public $attoreSecondario;
 public $annoFilm;
 public $genere;
 
+
 // i will write here function construct
 function __construct($_titolo, $_regista, $_attorePrincipale, $_attoreSecondario, $_annoFilm, $_genere)
 {
-   var_dump("istanza creata");
+   
    $this->titolo =$_titolo;
    $this->regista = $_regista;
    $this->attorePrincipale = $_attorePrincipale;
@@ -137,5 +138,6 @@ $this->genere = $genere;
 
 return $this;
 }
-}
 
+
+}
